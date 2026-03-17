@@ -6,15 +6,15 @@ body {
     background: #fffbf2;
     color: #2c1f0f;
     line-height: 1.6;
-    cursor: url("/fairytales/assets/cursors/ns.cur"), auto;
+    cursor: default;
     margin: 0;
 }
 
 a,
 button,
 [role="button"],
-.button {
-    cursor: url("/fairytales/assets/cursors/ls.cur"), pointer;
+.btn {
+    cursor: pointer;
 }
 
 .page {
@@ -23,20 +23,20 @@ button,
     flex-direction: column;
 }
 
-.stories_title_text {
+.storytitletext {
     margin-bottom: 8px;
 }
 
-.site_header {
+.sheader {
     position: sticky;
     top: 0;
     z-index: 10;
     background: #fff5d8;
-    border-bottom: 1px solid rgba(44, 31, 15, 0.12);
+    border-bottom: 1px solid #2c1f0f1f;
     backdrop-filter: blur(6px);
 }
 
-.header_inner {
+.hinner {
     width: min(1500px, 100%);
     margin: 0 auto;
     display: flex;
@@ -81,14 +81,14 @@ button,
     user-select: none;
 }
 
-.nav_item {
+.nitem {
     position: relative;
     display: inline-flex;
     align-items: center;
 }
 
 .nav > a,
-.nav_link {
+.navl {
     color: #2c1f0f;
     text-decoration: none;
     font-weight: 600;
@@ -97,14 +97,14 @@ button,
 
 .nav > a:hover,
 .nav > a:focus-visible,
-.nav_link:hover,
-.nav_link:focus-visible {
+.navl:hover,
+.navl:focus-visible {
     text-decoration: underline;
     color: #ff0000;
     transform: scale(1.08);
 }
 
-.nav_dropdown {
+.ndropdown {
     position: absolute;
     top: calc(100% + 10px);
     left: 0;
@@ -112,8 +112,8 @@ button,
     padding: 10px;
     background: #ffffff;
     border-radius: 14px;
-    border: 1px solid rgba(44, 31, 15, 0.12);
-    box-shadow: 0 16px 30px rgba(44, 31, 15, 0.12);
+    border: 1px solid #2c1f0f1f;
+    box-shadow: 0 16px 30px #2c1f0f1f;
     opacity: 0;
     transform: translateY(6px);
     pointer-events: none;
@@ -122,15 +122,15 @@ button,
     user-select: none;
 }
 
-.nav_item_dropdown:hover .nav_dropdown,
-.nav_item_dropdown:focus-within .nav_dropdown,
-.nav_item_dropdown.is-open .nav_dropdown {
+.nitemdrp:hover .ndropdown,
+.nitemdrp:focus-within .ndropdown,
+.nitemdrp.is-open .ndropdown {
     opacity: 1;
     transform: translateY(0);
     pointer-events: auto;
 }
 
-.nav_dropdown a {
+.ndropdown a {
     display: block;
     padding: 8px 12px;
     border-radius: 10px;
@@ -140,9 +140,9 @@ button,
     transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
 }
 
-.nav_dropdown a:hover,
-.nav_dropdown a:focus-visible {
-    background: rgba(247, 212, 136, 0.3);
+.ndropdown a:hover,
+.ndropdown a:focus-visible {
+    background: #f7d4884d;
     color: #7c3f00;
     transform: translateX(2px);
 }
@@ -153,7 +153,11 @@ button,
     padding: 0 4vw;
 }
 
-.hero {
+.pagecontent {
+    padding-bottom: 56px;
+}
+
+.h {
     padding: 64px 0 48px;
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -162,38 +166,38 @@ button,
 
 }
 
-.hero_tag {
+.toplinethingy {
     text-transform: uppercase;
     letter-spacing: 0.12em;
     font-size: 0.9rem;
-    color: rgba(44, 31, 15, 0.65);
+    color: #2c1f0fa6;
 }
 
-.hero_zoom {
+.hzoom {
     transition: transform 0.2s ease;
 }
 
-.hero_zoom:hover {
+.hzoom:hover {
     transform: scale(1.01);
 }
 
-.hero_title {
+.htitle {
     font-size: clamp(2.4rem, 4vw, 3.4rem);
     margin: 12px 0;
 }
 
-.hero_text {
+.htext {
     font-size: 1.1rem;
     margin-bottom: 24px;
 }
 
-.hero_actions {
+.hactions {
     display: flex;
     gap: 12px;
     flex-wrap: wrap;
 }
 
-.button {
+.btn {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -205,67 +209,67 @@ button,
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.button_primary {
+.btnmain {
     background: #ff0000;
     color: #ffffff;
     border-color: #ff0000;
 }
 
-.button_secondary {
+.btnsec {
     background: #ffc000;
     color: #000000;
     border-color: #ffc000;
 }
 
-.button_outline {
+.btnoutline {
     background: transparent;
     color: #2c1f0f;
-    border-color: rgba(44, 31, 15, 0.3);
+    border-color: #2c1f0f4d;
 }
 
-.button:hover,
-.button:focus-visible {
+.btn:hover,
+.btn:focus-visible {
     transform: translateY(-2px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 10px 20px #00000040;
 }
 
-.hero_card {
+.hcard {
     padding: 24px;
     border-radius: 18px;
     background: #ffffff;
-    box-shadow: 0 16px 30px rgba(44, 31, 15, 0.12);
-    border: 1px solid rgba(44, 31, 15, 0.08);
+    box-shadow: 0 16px 30px #2c1f0f4d;
+    border: 1px solid #2c1f0f14;
 }
 
-.hero_card h2 {
+.hcard h2 {
     margin-bottom: 8px;
 }
 
-.story_grid {
+.sgrid {
     display: grid;
     gap: 18px;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     padding-bottom: 48px;
 }
 
-.story_card {
+.scard {
     background: #ffffff;
     border-radius: 16px;
     padding: 20px;
-    border: 1px solid rgba(44, 31, 15, 0.08);
-    box-shadow: 0 12px 24px rgba(44, 31, 15, 0.08);
+    border: 1px solid #2c1f0f14;
+    box-shadow: 0 12px 24px #2c1f0f14;
     transition: transform 0.2s ease;
 }
 
-.story_card:hover {
+.scard:hover {
     transform: scale(1.02);
 }
 
-.story_card h3 {
+.scard h3 {
     margin-bottom: 8px;
 }
 
-.story_card a {
+.scard a {
     color: #2c1f0f;
     display: inline-block;
     font-weight: 700;
@@ -273,33 +277,27 @@ button,
     transition: transform 0.2s ease, color 0.2s ease;
 }
 
-.story_card a:hover,
-.story_card a:focus-visible {
+.scard a:hover,
+.scard a:focus-visible {
     text-decoration: underline;
     color: #ff0000;
     transform: scale(1.04);
 }
 
-.spotlight_box {
-    background: rgba(247, 212, 136, 0.2);
-    border-radius: 16px;
-    padding: 20px;
-}
-
-.site_footer {
+.footer {
     margin-top: auto;
     padding: 20px 0 32px;
-    border-top: 1px solid rgba(44, 31, 15, 0.12);
-    color: rgba(44, 31, 15, 0.7);
+    border-top: 1px solid #2c1f0f1f;
+    color: #2c1f0fb3;
     font-size: 0.95rem;
 }
 
-.page_header_title {
+.phtitle {
     text-decoration: none;
     color: black;
 }
 
-.nav_button {
+.navbtn {
     background: transparent;
     border: 0;
     padding: 0;
@@ -308,18 +306,18 @@ button,
 }
 
 @media (max-width: 900px) {
-    .hero,
+    .h,
     .spotlight {
         grid-template-columns: 1fr;
     }
 
-    .story_grid {
+    .sgrid {
         grid-template-columns: 1fr;
     }
 }
 
 @media (max-width: 700px) {
-    .header_inner {
+    .hinner {
         flex-direction: column;
         align-items: flex-start;
         gap: 12px;
@@ -330,7 +328,7 @@ button,
         gap: 12px 16px;
     }
 
-    .nav_dropdown {
+    .ndropdown {
         min-width: 180px;
         max-width: calc(100vw - 32px);
     }

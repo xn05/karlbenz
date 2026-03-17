@@ -19,55 +19,55 @@ body {
     place-items: center;
     padding: 32px 16px;
     background-image:
-            linear-gradient(180deg, rgba(20, 18, 32, 0.65) 0%, rgba(20, 18, 32, 0.65) 100%),
+            linear-gradient(180deg, #141220a6 0%, #141220a6 100%),
             url("/karlbenz/assets/images/background.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.welcome_overlay {
+.woverlay {
     position: absolute;
     inset: 0;
-    background: radial-gradient(circle at top, rgba(255, 255, 255, 0.1), transparent 60%);
+    background: radial-gradient(circle at top, #ffffff1a, transparent 60%);
     pointer-events: none;
 }
 
-.welcome_card {
+.wcard {
     position: relative;
     z-index: 1;
     text-align: center;
     padding: 32px 28px;
     max-width: 640px;
     width: min(90vw, 640px);
-    background: rgba(25, 22, 36, 0.75);
-    border: 1px solid rgba(255, 255, 255, 0.15);
+    background: #191624bf;
+    border: 1px solid #ffffff26;
     border-radius: 18px;
-    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 18px 40px #00000059;
     backdrop-filter: blur(4px);
 }
 
-.welcome_tag {
+.wtag {
     font-size: 1rem;
     letter-spacing: 0.12em;
     text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.8);
+    color: #ffffffcc;
     margin-bottom: 16px;
 }
 
-.welcome_title {
+.wtitle {
     font-size: clamp(2.2rem, 4vw, 3.2rem);
     margin-bottom: 12px;
 }
 
-.welcome_subtitle {
+.wsubtitle {
     font-size: 1.1rem;
     line-height: 1.5;
-    color: rgba(255, 255, 255, 0.85);
+    color: #ffffffd9;
     margin-bottom: 28px;
 }
 
-.welcome_button {
+.wbutton {
     display: inline-block;
     padding: 12px 28px;
     border-radius: 50px;
@@ -78,8 +78,8 @@ body {
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.welcome_button:hover,
-.welcome_button:focus-visible {
+.wbutton:hover,
+.wbutton:focus-visible {
     transform: translateY(-2px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 10px 20px #00000040;
 }

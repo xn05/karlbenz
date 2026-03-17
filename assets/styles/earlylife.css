@@ -1,0 +1,72 @@
+.pagecontent {
+    padding-bottom: 56px;
+}
+
+.karlsruheimg {
+    width: 100%;
+    max-height: 250px;
+    border-radius: 18px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.classroomimg {
+    width: 100%;
+    max-height: 220px;
+    border-radius: 18px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.ykarl {
+    width: 100%;
+    max-height: 220px;
+    border-radius: 18px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.splbox {
+    background: #f7d48833;
+    border-radius: 16px;
+    padding: 20px;
+}
+
+.content {
+    padding: 0 0 48px;
+}
+
+.sectionheading h2 {
+    font-size: 35px;
+}
+
+.featuresplit {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+    align-items: stretch;
+}
+
+.nstack {
+    display: grid;
+    gap: 18px;
+}
+
+.iphldr {
+    min-height: 280px;
+    border-radius: 18px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.detaillist {
+    padding-left: 20px;
+    display: grid;
+    gap: 10px;
+}
+
+.earlylifegrid {
+    padding-bottom: 0;
+}
+
