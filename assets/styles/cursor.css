@@ -1,0 +1,13 @@
+a,
+button,
+[role="button"],
+
+.btnmain,
+.btnsec,
+.btn {
+    cursor: url("/karlbenz/assets/cursors/ls.cur"), pointer;
+}
+
+body {
+    cursor: url("/karlbenz/assets/cursors/ns.cur"), auto;
+}
