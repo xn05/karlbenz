@@ -221,6 +221,24 @@ button,
     border-color: #ffc000;
 }
 
+.mercbenz {
+    background: #cc0000;
+    color: #ffffff;
+    border-color: #cc0000;
+}
+
+.amg {
+    background: #000000;
+    color: #ffffff;
+    border-color: #000000;
+}
+
+.maybach {
+    background: #8b7355;
+    color: #ffffff;
+    border-color: #8b7355;
+}
+
 .btnoutline {
     background: transparent;
     color: #2c1f0f;

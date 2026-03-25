@@ -2,20 +2,20 @@
     padding-bottom: 56px;
 }
 
-.karlsruheimg {
+.motorwagenimg {
     width: 100%;
-    max-height: 300px;
+    max-height: 350px;
     border-radius: 18px;
     object-fit: cover;
-    object-position: top;
 }
 
-.classroomimg {
+.karlmotorwagen {
     width: 100%;
-    max-height: 270px;
+    max-height: 350px;
     border-radius: 18px;
     object-fit: cover;
     object-position: top;
+
 }
 
 .ykarl {
@@ -70,3 +70,12 @@
     padding-bottom: 0;
 }
 
+.enginek {
+    width: 100%;
+    max-height: 400px;
+    border-radius: 18px;
+    border-color: saddlebrown;
+    border-style: solid;
+    border-width: 1px;
+    object-fit: cover;
+}
