@@ -11,7 +11,7 @@ index.htmk
 ⠀⠀⠀⠀⌞ ns.cur (Normal Select)  
 ⠀⠀⊢ images  
 ⠀⠀⠀⠀⌞ (Too many images (*.webp, *.jfif, *.jpg, *.svg, *.png))  
-⠀⠀⊢ scripts 
+⠀⠀⊢ scripts  
 ⠀⠀⠀⠀⌞ scrollreveal.js (Failed experiment)  
 ⠀⠀⌞ styles  
 ⠀⠀⠀⠀⊢ cursor.css  
