@@ -6,27 +6,28 @@ Individual task
 README.MD  
 index.htmk  
 **assets**  
-⊢ cursors  
-⠀⠀⊢ ls.cur (Link Select)  
-⠀⠀⌞ ns.cur (Normal Select)  
-⊢ images  
-⠀⠀⌞ (Too many images (*.webp, *.jfif, *.jpg, *.svg, *.png))  
-⊢ scripts  
-⌞ styles  
-⠀⠀⊢ cursor.css  
-⠀⠀⊢ earlylife.css  
-⠀⠀⊢ impact.css  
-⠀⠀⊢ motorwagen.css  
-⠀⠀⊢ pages.css  
-⠀⠀⊢ timeline.css  
-⠀⠀⌞ welcome.css  
+⠀⠀⊢ cursors  
+⠀⠀⠀⠀⊢ ls.cur (Link Select)  
+⠀⠀⠀⠀⌞ ns.cur (Normal Select)  
+⠀⠀⊢ images  
+⠀⠀⠀⠀⌞ (Too many images (*.webp, *.jfif, *.jpg, *.svg, *.png))  
+⠀⠀⊢ scripts 
+⠀⠀⠀⠀⌞ scrollreveal.js (Failed experiment)  
+⠀⠀⌞ styles  
+⠀⠀⠀⠀⊢ cursor.css  
+⠀⠀⠀⠀⊢ earlylife.css  
+⠀⠀⠀⠀⊢ impact.css  
+⠀⠀⠀⠀⊢ motorwagen.css  
+⠀⠀⠀⠀⊢ pages.css  
+⠀⠀⠀⠀⊢ timeline.css  
+⠀⠀⠀⠀⌞ welcome.css  
 **earlylife**  
-⌞ index.html  
+⠀⠀⌞ index.html  
 **home**  
-⌞ index.html  
+⠀⠀⌞ index.html  
 **impactontheworld**  
-⌞ index.html  
+⠀⠀⌞ index.html  
 **themotorwagen**  
-⌞ index.html  
+⠀⠀⌞ index.html  
 **timeline**  
-⌞ index.html  
+⠀⠀⌞ index.html  
