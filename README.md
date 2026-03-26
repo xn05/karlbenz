@@ -7,10 +7,10 @@ README.MD
 index.htmk  
 **assets**  
 ⊢ cursors  
-  ⊢ ls.cur (Link Select)  
-  ⌞ ns.cur (Normal Select)  
+    ⊢ ls.cur (Link Select)  
+    ⌞ ns.cur (Normal Select)  
 ⊢ images  
-  ⌞ (Too many images (*.webp, *.jfif, *.jpg, *.svg, *.png))  
+    ⌞ (Too many images (*.webp, *.jfif, *.jpg, *.svg, *.png))  
 ⊢ scripts  
 ⌞ styles  
   ⊢ cursor.css  
