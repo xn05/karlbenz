@@ -70,3 +70,8 @@
     padding-bottom: 0;
 }
 
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}

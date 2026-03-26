@@ -1,0 +1,99 @@
+/* Timeline page specific styles */
+.timeline-notes p {
+    margin: 0 0 10px;
+}
+
+.timeline-notes p:last-child {
+    margin-bottom: 0;
+}
+
+.ttwrap {
+    background: #ffffff;
+    border: 1px solid #2c1f0f14;
+    border-radius: 18px;
+    box-shadow: 0 12px 24px #2c1f0f14;
+    overflow-x: auto;
+}
+
+.tt {
+    width: 100%;
+    min-width: 760px;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.tt th {
+    text-align: left;
+    padding: 14px 20px;
+    background: #fff5d8;
+    color: #2c1f0f;
+    font-size: 0.95rem;
+    border-bottom: 1px solid #2c1f0f1f;
+}
+
+.tt td {
+    padding: 14px 20px;
+    vertical-align: top;
+    border-bottom: 1px solid #2c1f0f14;
+}
+
+.tt tr:last-child td {
+    border-bottom: 0;
+}
+
+.tt tr:hover {
+    background: #f7d4881a;
+}
+
+.tt th:first-child,
+.tt td:first-child {
+    width: 88px;
+}
+
+.tt th:nth-child(2),
+.tt td:nth-child(2) {
+    width: 110px;
+    font-weight: 700;
+}
+
+.tt th:nth-child(3),
+.tt td:nth-child(3) {
+    width: 220px;
+}
+
+.timeline-img-slot {
+    width: 64px;
+    height: 64px;
+    border-radius: 12px;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+
+.timeline-img-slot img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+@media (max-width: 900px) {
+    .tt {
+        min-width: 700px;
+    }
+}
+
+@media (max-width: 600px) {
+    .tt th,
+    .tt td {
+        padding: 12px 14px;
+    }
+}
+
+.karlbenzmain {
+    width: 100%;
+    max-height: 300px;
+    border-radius: 18px;
+    object-fit: cover;
+    object-position: top;
+}
