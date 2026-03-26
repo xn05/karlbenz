@@ -1,5 +1,5 @@
 # karlbenz
-Individual task  
+Computing Assesment 1 Part A Individual
 
 # Structure  
 
