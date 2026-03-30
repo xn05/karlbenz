@@ -53,9 +53,8 @@
 }
 
 .iphldr {
-    min-height: 280px;
+    min-height: 200px;
     border-radius: 18px;
-    display: grid;
     place-items: center;
     text-align: center;
 }
