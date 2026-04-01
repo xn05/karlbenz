@@ -12,7 +12,7 @@ index.htmk
 ⠀⠀⊢ images  
 ⠀⠀⠀⠀⌞ (Too many images (*.webp, *.jfif, *.jpg, *.svg, *.png))  
 ⠀⠀⊢ scripts  
-⠀⠀⠀⠀⌞ scrollreveal.js (Failed experiment)  
+⠀⠀⠀⠀⌞ scrollreveal.js (Failed experiment) (not included anymore)  
 ⠀⠀⌞ styles  
 ⠀⠀⠀⠀⊢ cursor.css  
 ⠀⠀⠀⠀⊢ earlylife.css  
